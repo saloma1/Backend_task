@@ -18,7 +18,7 @@ This system simulates a basic internal tool that an HR department or manager cou
 
 ## 🧭 How It Works
 
-### 1. Add Employee (`add_employee.html`)
+### 1. Add Employee (`index.html`)
 - A form to enter the employee’s **name** and **department**
 - Once submitted, the employee is saved to the database
 - Form includes validation to prevent empty fields

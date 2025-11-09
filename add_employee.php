@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt= $conn->prepare("INSERT INTO employees (name, department) VALUES (?, ?)");
     $stmt -> bind_param("ss", $name, $department);
         if ($stmt ->execute()) {
-            header("Location: add_employee.html?success=1");
+            header("Location: index.html?success=1");
             exit;
         } else {
             echo "Error: " . $stmt->error;
